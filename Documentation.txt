@@ -1,0 +1,8 @@
+- Criação da aplicação GO (go get para baixar dependencias do github)
+- Buildar a aplicação em Linux COM GITBASH = GOOS=linux go build -o main main.go
+- Builda a aplicação e ZIPA 
+- Após criar a lambda, modificar o Handler(Manipulador) na AWS com o mesmo nome do arquivo que está zipado.
+- É necessário dar as permissoes corretas de acesso ao bucket
+- Depois adicione algum trigger que vai chamar sua lambda
+
+- Devconsole
